@@ -1,0 +1,12 @@
+.board {
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+
+  width: var(--board-width);
+	height: var(--board-height);
+	margin: auto;
+
+  background-color: var(--board-border-color);
+  border: 5px solid var(--board-border-color);
+  border-radius: 18px;
+}

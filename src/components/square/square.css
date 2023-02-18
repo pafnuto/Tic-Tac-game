@@ -1,0 +1,28 @@
+.square {
+    font-family: 'Fredoka One', system-ui, Roboto, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 5px solid var(--board-border-color);
+    border-radius: 20px;
+    background-color: var(--background-color);
+  }
+  
+  .square p{
+    margin: 0;
+    padding: 0;
+    font-size: var(--square-font-size);
+  }
+  
+  .highlight {
+    background-color: var(--winning-square-color);
+  }
+  
+  .emptySquare:hover {
+    background-color: var(--button-hover-color);
+  }
+  
+  .playerX {
+    color: var(--player-x-color);
+  }
+  
+  .playerO {
+    color: var(--player-y-color);
+  }
