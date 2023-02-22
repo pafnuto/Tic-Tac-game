@@ -1,12 +1,12 @@
-.board {
-	display: grid;
-	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+.Board {
+	display: flex;
+	width: 300px;
+	height: 300px;
+	flex-wrap: wrap;
+  color:#1100FF;
+}
 
-  width: var(--board-width);
-	height: var(--board-height);
-	margin: auto;
-
-  background-color: var(--board-border-color);
-  border: 5px solid var(--board-border-color);
-  border-radius: 18px;
+.resButton{
+  height: 3rem;
+  width: 5rem;
 }
